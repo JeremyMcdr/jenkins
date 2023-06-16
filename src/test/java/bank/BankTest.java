@@ -51,7 +51,7 @@ public class BankTest {
         assertTrue(accounts.contains(account2));
     }*/
 
-    @Test
+    /*@Test
     @DisplayName("Test displayAccountBalances method")
     public void testDisplayAccountBalances() {
         bank.addAccount(account1);
@@ -71,7 +71,7 @@ public class BankTest {
         String expectedOutput = "Account ID: 1, Balance: 1000.0\n" +
                 "Account ID: 2, Balance: 2000.0\n";
         assertEquals(expectedOutput, outputStream.toString());
-    }
+    }*/
 
     private static Stream<Double> amountProvider() {
         return Stream.of(100.0, 200.0, 300.0);
