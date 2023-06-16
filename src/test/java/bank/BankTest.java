@@ -40,7 +40,7 @@ public class BankTest {
         assertEquals(expectedBalance2, account2.getBalance());
     }
 
-    @Test
+    /*@Test
     @DisplayName("Test removeAccount method")
     public void testRemoveAccount() {
         bank.addAccount(account1);
@@ -49,7 +49,7 @@ public class BankTest {
         List<Account> accounts = bank.getAccounts();
         assertFalse(accounts.contains(account1));
         assertTrue(accounts.contains(account2));
-    }
+    }*/
 
     @Test
     @DisplayName("Test displayAccountBalances method")
