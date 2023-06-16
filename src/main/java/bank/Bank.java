@@ -30,4 +30,7 @@ public class Bank {
             destinationAccount.deposit(amount);
         }
     }
+    public List<Account> getAccounts() {
+        return accounts;
+    }
 }
